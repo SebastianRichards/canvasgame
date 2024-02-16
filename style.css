@@ -1,0 +1,19 @@
+html, body {
+    overflow: hidden;
+    image-rendering: pixelated;
+}
+
+
+
+.game-container {
+    display: flex;
+    justify-content: center;
+}
+
+.canvasObj {
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges; /* Firefox */
+    image-rendering: crisp-edges; /* Safari */
+    width: 320px; /* Adjusted size */
+    height: 320px; /* Adjusted size */
+}
